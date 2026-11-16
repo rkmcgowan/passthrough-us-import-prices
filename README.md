@@ -11,11 +11,12 @@ A 1% stronger dollar is associated with US import prices about 0.66% lower acros
 
 ## How to run
 
-1. Open `passthrough-project.Rproj` in RStudio to set the working directory. 
-2. Install the packages once: `install.packages(c("tidyverse", "sandwich", "lmtest"))`
-3. Run `source("code/01_pull_and_clean.R")`, then `source("code/02_model.R")`.
+1. Download the whole repository (green Code button, then Download ZIP) and extract it.
+2. Open `passthrough-project.Rproj` from inside the extracted folder in RStudio. This sets the working directory. Running `list.files()` should show `code`, `data` and `output`.
+3. Install the packages once: `install.packages(c("tidyverse", "sandwich", "lmtest"))`
+4. Run `source("code/01_pull_and_clean.R")`, then `source("code/02_model.R")`.
 
-The scripts read the raw data in `data/raw/` and write the cleaned data to `data/clean/` and the results table and chart to `output/`. Tested with R 4.6.2.
+The scripts read the raw data in `data/raw/` and write the cleaned data to `data/clean/` and the results table and chart to `output/`. Developed in R 4.6.2.
 
 ## Data
 
