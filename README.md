@@ -11,7 +11,7 @@ A 1% stronger dollar is associated with US import prices about 0.66% lower acros
 
 ## How to run
 
-1. Open `passthrough-project.Rproj` in RStudio. This sets the working directory.
+1. Open `passthrough-project.Rproj` in RStudio to set the working directory. 
 2. Install the packages once: `install.packages(c("tidyverse", "sandwich", "lmtest"))`
 3. Run `source("code/01_pull_and_clean.R")`, then `source("code/02_model.R")`.
 
